@@ -1,0 +1,170 @@
+{
+    "name": "InputActionsForVR",
+    "maps": [
+        {
+            "name": "CubeController",
+            "id": "59a8f72d-3f7b-47a3-8948-1a8f6a2abfa5",
+            "actions": [
+                {
+                    "name": "LiftUp",
+                    "type": "Value",
+                    "id": "f7e9fb87-1e85-4efa-a746-b83f5fdb9c35",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ChangeColor",
+                    "type": "Button",
+                    "id": "06e28482-55d6-4384-87b0-2b9551e08ae2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "c03cc2d3-050d-4af1-a56e-89d98ec10652",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cdb75329-bf7f-426d-ba59-9e723e435c14",
+                    "path": "<XRController>{RightHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LiftUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3668695a-7596-43ea-879c-8477a37c197a",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeColor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc87185b-170b-46c1-a404-1001589dd33b",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Head",
+            "id": "7de5d3b2-1693-4597-a488-a71a6dada959",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "fe285b15-55dc-4968-aba4-a7e7e3428029",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "a4741d44-6b32-487f-8fd0-4ec98637b6c7",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IsTracked",
+                    "type": "Button",
+                    "id": "176dc9c7-c4c8-4e9d-bc3a-6badcb7b2acf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f6986435-38dc-4788-80c7-f9720cfae2c0",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7b38a17-a49c-4154-b754-b403f5d00efb",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf076b62-a0d6-4dce-a74a-07a9f4f024cc",
+                    "path": "<XRHMD>/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IsTracked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightHand",
+            "id": "0c06b25b-9a83-48a4-805c-5d4c6b24d8d8",
+            "actions": [
+                {
+                    "name": "Haptic",
+                    "type": "Value",
+                    "id": "89cab3e9-e256-4761-aec3-0bc796254d34",
+                    "expectedControlType": "Haptic",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "11246ded-5e51-4bfd-ab0c-fe23c0c601a3",
+                    "path": "<XRController>{RightHand}/haptic",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haptic",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
