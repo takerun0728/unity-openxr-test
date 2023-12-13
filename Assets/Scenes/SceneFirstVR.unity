@@ -911,6 +911,7 @@ GameObject:
   - component: {fileID: 714505926}
   - component: {fileID: 714505925}
   - component: {fileID: 714505927}
+  - component: {fileID: 714505929}
   - component: {fileID: 714505928}
   m_Layer: 0
   m_Name: CubeController
@@ -979,6 +980,21 @@ MonoBehaviour:
   displayMessage: {fileID: 657652916}
   actionReference: {fileID: -6545525858678568878, guid: 006ed542ec11336438297e2156c52763, type: 3}
   hapticActionReference: {fileID: -5571513550176733503, guid: 006ed542ec11336438297e2156c52763, type: 3}
+--- !u!114 &714505929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714505924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e81fa70d638af43bb81f1d30d4e6e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayMessage: {fileID: 1389929746}
+  actionReference: {fileID: 4676436300360949590, guid: 006ed542ec11336438297e2156c52763, type: 3}
+  targetObject: {fileID: 598716339}
 --- !u!1 &864849495
 GameObject:
   m_ObjectHideFlags: 0
